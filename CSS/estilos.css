@@ -1,0 +1,76 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+body{
+    background-image: url(../IMG/2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+.ENC{
+    background-image: url(../IMG/Enc.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: auto;
+}
+
+img{
+    max-height: 30%;
+    max-width: 30%;
+    margin-left: 40px;
+    margin-right:auto;
+    margin-top: 40px;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    float: left;
+    cursor: pointer;
+
+    border: 5px solid rgb(255, 255, 255);  
+    border-image-source: linear-gradient(#d9ff00, #ff0088);
+    border-image-slice: 20;
+    padding: 1em;
+ 
+}
+
+.Enc{
+    text-align: center;
+    letter-spacing: 15px;
+    background-image: linear-gradient(to right, red , yellow);
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.sp{
+    color: white;
+    margin-top: 40px;
+    float: left;
+    margin-left: 40px;
+    font-size: 50px;
+    display: inline-block;
+}
+
+p{
+    color: white;
+    text-align: justify;
+    font-size: 25px;
+    float: left;
+    margin-left: 20px;
+    display: inline-block;
+    width: 30%;
+}
